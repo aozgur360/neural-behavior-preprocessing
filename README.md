@@ -25,4 +25,14 @@ The final output is a folder containing the following .csv files:
     
     ![miniscope_ex](https://github.com/aozgur360/neural-behavior-preprocessing/assets/77759136/d3a9700e-1682-413e-9dbf-ba90f022f680)
 
+get_all_behav_params can be used to output a .csv file containing the following information on a given behavioral session:
+mouseID, training stage, sessionID, percent correct left trials, percent correct right trials, overall behavioral performance accuracy, and number of clean trials
+![get_all_behav_params_ex](https://github.com/aozgur360/neural-behavior-preprocessing/assets/77759136/2204f684-4f46-4cfe-bdb3-7c4c14673fde)
+
+For mouse location tracking, all credit goes to DeepLabCut: https://github.com/DeepLabCut/DeepLabCut
+LocationTracking_Functions and LocationTracking_Individual were written by DeepLabCut, with the only main changes being the specific parameters I used when processing and batching my behavioral data.
+
+
+
+
 
