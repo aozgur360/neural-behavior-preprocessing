@@ -33,12 +33,12 @@ For mouse location tracking, all credit goes to DeepLabCut: https://github.com/D
 LocationTracking_Functions and LocationTracking_Individual were written by DeepLabCut, with the only main changes being the specific parameters I used when processing and batching my behavioral data.
 AO_get_videos_for_DLC_rig1 was used to generate a list of sessionIDs ready for processing with DeepLabCut. The parameters can be changed to be used on other behavioral rigs for which the algorithm was
 separately trained on. For batch processing I used the following steps:
-# conda activate deeplabcut
-# ipython
-# import deeplabcut
-# for rig1....deeplabcut.analyze_videos("[insert directory of config file for trained rig]",,save_as_csv=True)
-# paste in list
-# ; for multiple commands
+...conda activate deeplabcut
+...ipython
+...import deeplabcut
+...for rig1....deeplabcut.analyze_videos("[insert directory of config file for trained rig]",,save_as_csv=True)
+...paste in list
+...; for multiple commands
 
 
 
