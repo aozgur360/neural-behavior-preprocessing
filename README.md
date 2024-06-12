@@ -30,9 +30,11 @@ mouseID, training stage, sessionID, percent correct left trials, percent correct
 ![get_all_behav_params_ex](https://github.com/aozgur360/neural-behavior-preprocessing/assets/77759136/2204f684-4f46-4cfe-bdb3-7c4c14673fde)
 
 For mouse location tracking, all credit goes to DeepLabCut: https://github.com/DeepLabCut/DeepLabCut
+
 LocationTracking_Functions and LocationTracking_Individual were written by DeepLabCut, with the only main changes being the specific parameters I used when processing and batching my behavioral data.
 AO_get_videos_for_DLC_rig1 was used to generate a list of sessionIDs ready for processing with DeepLabCut. The parameters can be changed to be used on other behavioral rigs for which the algorithm was
 separately trained on. For batch processing I used the following steps:
+
 ...conda activate deeplabcut
 ...ipython
 ...import deeplabcut
