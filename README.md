@@ -6,7 +6,7 @@ AO_yarm (functions) and AO_yarm_main (execution) can be used to view behavioral 
 
 AO_behav_calcium can be used to sync behavioral events with neural activity (calcium imaging).
 The final output is a folder containing the following .csv files:
-1) Perameters pertaining to all events alongside neural activity time frames.
+1) Parameters pertaining to all events alongside neural activity time frames.
   ![parameters_ex](https://github.com/aozgur360/neural-behavior-preprocessing/assets/77759136/f302fba5-630d-44d7-beeb-a99aa553b5c5)
 2) Raw calcium activity (fluorescence intensities) for each cell (x-axis) and each frame (y-axis).
    ![raw_calcium_ex](https://github.com/aozgur360/neural-behavior-preprocessing/assets/77759136/57c1e3ee-38d9-4a33-8ba7-056b6f1a76e2)
